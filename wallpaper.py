@@ -9,10 +9,10 @@ save_path = "/mnt/2ADAC21CDAC1E463/Others/Wallpapers/"
 def Reddit():
 	# Logging in reddit
 	reddit = praw.Reddit(client_id=os.environ.get("reddit_client_id"),
-						client_secret=os.environ.get("reddit_client_secret"),
-						username=os.environ.get("reddit_user"),
-						password=os.environ.get("reddit_pass"),
-						user_agent=os.environ.get("reddit_user"))
+			     client_secret=os.environ.get("reddit_client_secret"),
+			     username=os.environ.get("reddit_user"),
+			     password=os.environ.get("reddit_pass"),
+			     user_agent=os.environ.get("reddit_user"))
 
 	# Getting The Image
 	print("Finding A Wallpaper...")
