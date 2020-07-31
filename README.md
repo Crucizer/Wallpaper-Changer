@@ -5,7 +5,6 @@ This script fetches a popular wallpaper from certain subreddits and sets that im
 
 ## Demo
 
-## Demo
 ![Wallpaper Changer Demo](demo.gif)
 
 ## Installation
